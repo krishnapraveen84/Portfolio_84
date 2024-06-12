@@ -1,0 +1,44 @@
+.skills-containers{
+    padding: 25px;
+}
+.skill-heading{
+    font-size: 32px;
+    font-weight: 650;
+    font-family: "Ysabeau Infant", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #DDE6ED;
+    text-align: center;
+}
+.skill-heading:hover{
+    color: rgb(21, 236, 218);
+    font-size: 34px;
+}
+.skill-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.skill{
+    background-color: #dcebf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: 20px;
+    border-radius: 36px;
+}
+.skill:hover{
+    background-color: rgb(244, 244, 244);
+    width: 201px;
+}
+.skill-name{
+    font-size: 20px;
+    font-weight: 550;
+    font-family: "Ysabeau Infant", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}

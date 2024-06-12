@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.logo-name {
+    font-size: 28px;
+    font-weight: 550;
+    padding-left: 25px;
+    font-family: "Ysabeau Infant", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #DDE6ED;
+} 
+.logo-name:hover{
+    color: #2E8A99;
+}
+.routes-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+} 
+.link{
+    text-decoration: none;
+
+} 
+.route-name:hover{
+    color: rgb(135, 242, 206);
+    font-size: 25px;
+    text-shadow: #2E8A99;
+    font-weight: 600;
+}
+.route-name{
+    font-size: 22px;
+    font-family: "Ysabeau Infant", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+    color: #DDE6ED;
+
+}
